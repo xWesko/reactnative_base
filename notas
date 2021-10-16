@@ -19,6 +19,11 @@ npm i @react-native-community/masked-view
 npm i react-native-paper
 
 
+agregar en /android/ 
+local.properties
+agregar path de del sdk de android ejemplo:
+sdk.dir = /Users/luishernandez/Library/Android/sdk
+
 
 // Si desarrollas una app para iOS 
 
@@ -29,7 +34,7 @@ pod install
 implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
 implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
 
-// en el App.js 
+// en el index.js 
 import 'react-native-gesture-handler';
 
 
