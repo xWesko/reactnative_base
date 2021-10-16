@@ -1,0 +1,54 @@
+//Abrir emulador
+ 
+emulator -avd Pixel_2_API_30
+
+// Instalar navegación
+npm i @react-navigation/native
+npm i @react-navigation/drawer
+npm i @react-navigation/stack
+
+// Instalar las dependencias
+npm i react-native-reanimated 
+npm i react-native-gesture-handler 
+npm i react-native-screens 
+npm i react-native-safe-area-context 
+npm i @react-native-community/masked-view
+
+
+// Instalar UI
+npm i react-native-paper
+
+
+
+// Si desarrollas una app para iOS 
+
+cd ios/
+pod install
+
+// En Android android/app/build.gradle
+implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha02'
+
+// en el App.js 
+import 'react-native-gesture-handler';
+
+
+
+Refresh brachs
+git branch -a
+
+//quitar brachs
+git fetch --prune
+
+
+cd android
+./gradlew clean
+
+//reset cache
+react-native start --reset-cache
+
+Generating the release AAB
+cd android
+./gradlew bundleRelease
+
+android/app/build/outputs/bundle/release/app.aab
