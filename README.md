@@ -1,5 +1,5 @@
-# reactnative_base
-Proyecto base de una aplicación en React Native ⚛
+# Reactnative App ⚛
+Proyecto base de una aplicación en React Native 
 
 ## Incluye
 
