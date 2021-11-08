@@ -39,13 +39,6 @@ import 'react-native-gesture-handler';
 
 
 
-Refresh brachs
-git branch -a
-
-//quitar brachs
-git fetch --prune
-
-
 cd android
 ./gradlew clean
 
