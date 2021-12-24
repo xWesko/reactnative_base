@@ -28,16 +28,14 @@ const Inicio = ( { navigation } ) => {
         setLoading(false);
     }
 
+    console.log(data)
 
-    console.log(data);
 
     useEffect( () => {
         let mounted = true;
-
         if( mounted ) {
             getData()
         }
-
         return () => {
             mounted = false;
         }
